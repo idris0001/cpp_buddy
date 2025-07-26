@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  int sum, num, a;
+    
+//  cout << "Program to sum_up_N numbers \n ";
+  
+   cout << "How many nos do you wish to sum up\t?";
+  
+  cin >>num;
+
+  sum =0; 
+  for (int i=1; i<=num;i++){
+  	cout << "Enter number"<<i;
+  	  cin >>a;
+  	  sum =sum+ a;
+  }
+
+  // prints sum 
+  cout << "sum=" << sum;     
+
+  return 0;
+}
